@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, DrinkCategoryActivity.class);
                     startActivity(intent);
                 }
+                else if (i==1)
+                {
+                    Intent intent = new Intent(MainActivity.this, FoodCategoryActivity.class);
+                    startActivity(intent);
+                }
             }
         };
         ListView listView = findViewById(R.id.listView);
