@@ -15,6 +15,7 @@ public class DrinkCategoryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drink_category);
+
         ArrayAdapter<Drinks> listAdapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,Drinks.drinks);
         ListView listView = findViewById(R.id.drinks_list);
         listView.setAdapter(listAdapter);

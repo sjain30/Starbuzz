@@ -8,7 +8,8 @@ public class Drinks {
     public static final Drinks[] drinks = {
             new Drinks("Latte","A couple of espresso shots with streamed milk", R.drawable.latte),
             new Drinks("Cappuccino","Espresso, hot milk, and a steamed milk foam", R.drawable.cappuccino),
-            new Drinks("Filter","Highest quality beans roasted and brewed fresh", R.drawable.filter)
+            new Drinks("Filter","Highest quality beans roasted and brewed fresh", R.drawable.filter),
+            new Drinks("Just another coffee","Simple AF", R.drawable.filter)
     };
 
     private Drinks(String name, String description, int imageresource)
